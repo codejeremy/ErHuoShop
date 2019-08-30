@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ErHuoShop</string>
+    <string name="home">主页</string>
+    <string name="hot">热卖</string>
+    <string name="catagory">分类</string>
+    <string name="cart">购物车</string>
+    <string name="mine">我的</string>
+    <string name="error_gif">x or y bound size should be at least %1$dpx and file size should be no more than %2$sM</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/goodscardview"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="2dp"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="10dp"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/goods_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@mipmap/icon_erhuo"/>
+        <TextView
+            android:id="@+id/goods_descrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="16dp"
+            android:text="描述这个商品的详细情况谢谢。"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/goods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="80dp"
+        style="@style/ware_price"
+        android:text="559.00"
+        />
+    <Button
+        android:id="@+id/goods_add_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginLeft="250dp"
+        android:background="#8dd4df"
+        android:text="立即购买"
+        />
+
+</android.support.v7.widget.CardView>
